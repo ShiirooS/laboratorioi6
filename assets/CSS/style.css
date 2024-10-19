@@ -1,0 +1,163 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(243, 221, 192, 0.659);
+}
+
+/* Titulo */
+.titulo{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* Header */
+.header{
+    color: #2e2e2e;
+    padding: 50px 15px;
+    margin: 0 auto;
+    border-bottom: #2e2e2e;
+    text-align: center;
+    background-color: rgb(230, 208, 180);
+}
+
+/* Barra de Nav */
+.navbar{   
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    position: absolute;
+    right: 20px;
+    right: 0;
+    
+
+    ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        /* height: 45px; */
+        justify-content: center;
+        list-style-type: none;
+    }
+    
+    li{
+        margin-left: 20px;
+    }
+    a{
+        color: black;
+        padding: 0 20px;
+        font-size: 24px;
+        text-transform: uppercase;
+        transition: background-color 0.3s;
+        text-decoration: none;  /*quitar subrayado*/
+    } 
+    a:hover{
+        background-color: antiquewhite;
+        border-radius: 5px;
+    }
+}
+a{
+    text-decoration: none;
+    color: #2e2e2e;
+
+}
+
+/* Maneja el lead */
+.lead{
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-align: justify;
+    margin: 0;
+    padding: 30px ;
+}
+
+/* Maneja el titulo del post */
+.post-titulo{
+    text-align: justify;
+    margin: 0;
+    font-size: 32px;
+    position: absolute;
+    left: 50px;
+}
+/* Maneja la imagen */
+.imagen{
+    text-align: center;
+    max-width: 960px;
+    margin: 50px auto 0;
+}
+/* Leyenda de la imagen */
+.subtitulo{
+    font-size: 12px;
+    color: #666;
+    margin-top: 6px;
+    margin-left: 218px;
+}
+/* Body del post */
+.post-body{
+    text-align: justify;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    font-size:20px ;
+}
+/* Tabla */
+.tabla{
+    font-size: 18px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: solid 1px rgb(230, 208, 180);
+}
+th{
+    padding: 10px 5px;
+    background:  rgb(230, 208, 180);
+    border-radius: 5px;
+}
+td{
+    padding: 15px;
+    border-bottom: solid 1px rgb(230, 208, 180);
+}
+
+/* Contenido de la pagina */
+.contenedor{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.centrar{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Manejo del Footer */
+.footer{
+    background-color: rgb(230, 208, 180);
+    color: #2e2e2e;
+    text-align: center;
+    padding: 10px 0 ;
+    width: 100%;
+    margin: 0;
+}
+
+/* @media(max-width:768px){
+    .navbar{
+        align-items: stretch;
+    }
+    ul{
+        width: 100%;
+    }
+    li{
+        text-align: center;
+        width: 100%;
+    }
+    a{
+        border-right: none;
+    }
+    .contenedor{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+    }
+} */
